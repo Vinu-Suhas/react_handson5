@@ -10,6 +10,7 @@ class PureCompos extends PureComponent{
     render(){
         console.log("rendered")
         return(<>
+        <code>Demostarting PureComponent</code>
         <h1>This is my name {this.state.name}</h1>
         <button onClick={()=>this.setState({name:"Suhas"})}>Update name</button>
         </>)
